@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Project Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="../../style/main.css" rel="stylesheet">
+    <link href="../../style/font.css" rel="stylesheet">
+
+    <link rel="icon" href="/images/LogoSmaller.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div style="width: 100%; height: 20px;"></div>
+    <div id="top_section_div" style="background-image: URL('../../images/All\ Projects\ BG.png'); background-size: cover; height: 500px; background-position: 50% 80%; justify-content: center;" class="row">
+        <div class="col col-sm-12 col-lg-10" style="display: flex; flex-direction: column; padding: 40px; align-items: start; justify-content: center; height: 100%">
+            <div class="co-header-card">
+                <p class="fw-bold fs-800 lh-900" style="color:white; margin: 0px;" id="title">Project Name</p>
+                <p class="fw-lighter fs-500 lh-600" style="color:white; margin: 0px;">Learn about this project and our efforts towards our goals.</p>
+            </div>
+            <div id="top_completion_badge" class="fw-bold" style="color: white; background-color: #37b437; padding: 15px; margin-top: 5px; border-radius: 10px;">This project has been completed</div>
+        </div>
+    </div>
+
+    <div style="padding: 12px; padding-top: 40px">
+        <div class="lighter-grey-bg" id="tabs-container">
+            <ul class="nav nav-pills co-blue-bg" id="pills-tab" role="tablist" style="padding-left: 15px; padding-top: 15px; padding-bottom: 15px;">
+                <li class="nav-item" role="presentation">
+                  <a class="project_tab active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="false">Donate</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="project_tab" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="true">Info</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="project_tab" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Impact</a>
+                </li>
+            </ul>
+            <div class="tab-content lighter-grey-bg" id="pills-tabContent" style="padding: 20px;">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="horizontal-desktop-vertical-mobile" style="justify-content: center; align-items: start;">
+                        <div class="px-1 mx-1" style="max-width: 400px;">
+                            <div id="completion_notes_section">
+                                <div style="border: solid rgba(0, 0, 0, 0.208) 1px; width: 100%; padding: 10px; background-color: white; border-radius: 10px; margin-bottom: 10px;">
+                                    <h1 class="fs-700 fw-bold co-blue">Completion Notes</h1>
+                                    <p id="completion_notes" style="margin: 0px" class="fs-500 co-blue">Allow me to have this dance</p>
+                                </div>
+                                <div style="border: solid rgba(0, 0, 0, 0.208) 1px; width: 100%; padding: 10px; background-color: white; border-radius: 10px;">
+                                    <p class="fs-600 fw-bold co-blue lh-700" style="margin-bottom: 0px;">Thank you for everything</p>
+                                    <p class="fs-400 fw-bold co-blue">This project has been completed. Press the IMPACT button to learn how things have changed! Or INFO button if you wish to learn about the project.‍</p>
+                                    <p class="fs-500 fw-bold co-blue lh-700" style="margin-bottom: 0px;">Another Project Awaits</p>
+                                    <p class="fs-400 fw-bold co-blue" style="margin-bottom: 0px;">We are constantly looking to help where help is needed. View our projects page to see where else we can use your assistance.</p>
+                                </div>
+                                <div style="display: flex; flex-direction: row; margin-top: 5px;">
+                                    <a class="btn btn-primary co-blue-bg" href="/search/?type=projects">View Projects</a>
+                                    <a class="btn btn-danger red-bg ms-1" href="/projects/page/?title=all">Donate To all Projects</a>
+                                </div>
+                            </div>
+                            <div id="donorbox_container" style="height: auto; object-fit: contain; display: flex; justify-content: center; align-items: center; margin: 0px; padding: 20px;"></div>
+                        </div>
+                        <div style="display: flex; flex-direction: column" class="desktop-padding-right">
+                            <div style="padding: 20px; max-width: 500px;">
+                                <div class="co-blue-bg" style="padding: 30px; border-radius: 25px; width: auto; display: inline-block;  color: white">
+                                    <p id="bible_verse_content" class="fs-600" style="margin: 0px; ">For the Spirit God gave us does not make us timid, but gives us power, love and self-discipline</p>
+                                    <div style="width: 100%; display: flex; justify-content: right;">
+                                        <p id="bible_verse_CV" class="fs-700" style="margin: 0px; display: flex;">2 Timothy 1:7</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="donorbox_wall_container" style="padding: 30px"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div style="max-width: 700px;">
+                        <h1 class="fs-800 co-blue fw-bold">What's Happening?</h1>
+                        <!-- Overview Area-->
+                        <div id="overview_section">
+                            <h2 class="fs-700 co-blue">Overview</h2>
+                        </div>
+                        <p class="fs-500" style="margin: 0px;" id="long_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a id="pre_project_photo_button" class="fs-500 btn btn-light co-blue-bg" style="color: white; margin-top: 10px;" href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="pre_project_photos">
+                            View Pictures
+                        </a>
+                        <div class="hideable fullHide" id="pre_project_photos">
+                        </div>
+                    </div>
+                    <br>
+                    <div style="max-width: 700px;">
+                        <h1 class="co-blue fw-bold fs-800">Our Goals</h1>
+                        <p class="fs-500" style="margin: 0px;" id="goals">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <br>
+                    <div style="margin-bottom: 20px">
+                        <h1 style="font-size: 3rem;" class="co-blue fw-bold">How you can help</h1>
+                        <div style="display: flex; flex-direction: row; align-items: left; justify-content: left; flex-wrap: wrap;">
+                            <div id="how_you_can_help_incomplete">
+                                <div id="how_you_can_help_incomplete" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+                                    <div class="red-bg" style="border-radius: 15px; padding: 15px; margin-top: 10px; max-width: 400px; margin-right: 8px">
+                                        <p style="font-size: 1.5rem; font-weight: bold; color: white; margin: 0px">Donate</p>
+                                        <p style="font-size: 1rem; color: white;">Without your help, we could not provide as much aid as we do now. Please consider donating today, and make change!</p>
+                                        <a class="btn rounded btn-light" onclick="switchTab('tabs-container', 'pills-home')">Donate</a>
+                                    </div>
+        
+                                    <!-- hide if no volunteering opportunities -->
+
+                                    <!-- <div class="co-blue-bg" style="border-radius: 15px; padding: 15px; margin-top: 10px; max-width: 400px; margin-right: 8px">
+                                        <p style="font-size: 1.5rem; font-weight: bold; color: white; margin: 0px">Volunteer</p>
+                                        <p style="font-size: 1rem; color: white;">Press <b>view opportunities</b> to view the volunteering opportunities for this project!</p>
+                                        <a class="btn rounded btn-light">Volunteer</a>
+                                    </div> -->
+
+
+                                    <div class="light-grey-bg" style="border-radius: 15px; padding: 15px; margin-top: 10px; max-width: 400px; margin-right: 8px">
+                                        <p style="font-size: 1.5rem; font-weight: bold; color: black; margin: 0px">Share</p>
+                                        <p style="font-size: 1rem; color: black;">Share this page and follow us on our social media!</p>
+                                        <div style="display: flex; flex-direction: row;">
+                                            <a style="margin-right: 5px; width: 36px; height: 36px; padding: 3px; background-color: white; border-radius: 12px; display: inline-flex; justify-content: center; align-items: center;" href="https://www.facebook.com/people/Crossover-Global-Facilitating-Ministry-Inc/100063746584058/" target="_blank">
+                                                <img src="../../images/facebook.svg" style="width: 100%; height: 100%;">
+                                            </a>
+                                            <a class="btn" style="margin-right: 5px; width: 36px; height: 36px; padding: 3px; background-color: white; border-radius: 12px; display: inline-flex; justify-content: center; align-items: center;" href="https://www.youtube.com/@crossoverglobal478" target="_blank">
+                                                <img src="../../images/youtube.svg" style="width: 100%; height: 100%;">
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- thanks for completeing project -->
+                            <div id="how_you_can_help_complete">
+                                <div class="co-blue-bg" style="border-radius: 15px; padding: 15px; margin-top: 10px; max-width: 400px; margin-right: 8px">
+                                    <p class="fs-600 fw-bold" style="color: white; margin: 0px">Thank you!</p>
+                                    <p class="fs-400" style="color: white;">
+                                        For this project, the help we have recieved, <b>from people like you</b>, has helped us complete it.
+                                        <br>
+                                        <br>
+                                        <i>We still need your help</i>
+                                        <br>
+                                        <br>
+                                        We have other projects that still need to be completed. View our Project's Page to learn more.
+                                    </p>
+                                    <a class="btn rounded btn-light fw-bold" href="/projects">Go to Project Page</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div style="background-image: URL('../../images/SimpleBG2.png'); background-size: cover; min-height: 300px; background-position: 50% 80%; padding-top: 50px; padding-bottom: 50px;" class="row mb-2">
+                        <div style="width: 100%; text-align: center; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                            <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center;">
+                                <p class="co-blue fs-800 fw-bold" style="margin: 0px; margin-right: 0.5rem;">You've contributed</p>
+                                <p id="amount_raised" class="co-blue fs-800 fw-bold" style="margin: 0px; margin-right: 0.5rem;">to</p>
+                                <p class="co-blue fs-800 fw-bold" style="margin: 0px;">to</p>
+                            </div>
+                            
+                            <p id="title2" class="co-blue fs-700 fw-bold" style="margin: 0px;">Project Name</p>
+                            <p class="co-blue fs-800 fw-bold" style="margin: 0px;">What has changed?</p>
+                        </div>
+                    </div>
+                    <!-- nothing yet section -->
+                    <div id="nothing_yet">
+                        <div style="padding: 30px; padding-top: 50px; padding-bottom: 50px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                            <p class="fs-700 fw-bold lh-700" style="text-align: center; margin: 0px;">Nothing Yet</p>
+                            <p class="fs-600 lh-700 mt-3" style="text-align: center; max-width: 400px;">But be patient. God willing, Good things will happen.</p>
+                        </div>
+                    </div>
+
+                    <!-- actual impact section -->
+                    <div id="impact_section">
+
+                    </div>
+
+                    <hr>
+
+                    <div id="post_project_photos">
+                        <div style="text-align: center; display: flex; flex-direction: column; justify-content: center;">
+                            <p style="margin: 0px;" class="fs-800 fw-bold lh-900">Impact Gallary</p>
+                            <p class="fs-500">Photos and videos from the project</p>
+                            <div id="impact_gallary" class="row">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" style="padding: 5px;">
+                                    <a class="col-12 col-sm-6 col-md-4 col-lg-3" href="/images/projects/african_woman_store.jpg" data-toggle="lightbox" data-gallery="asd-photos">
+                                        <img style="object-fit: cover; width: 100%; height: 100%;" src="/images/projects/african_woman_store.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" style="padding: 5px;">
+                                    <a href="/images/projects/african_woman_store.jpg" data-toggle="lightbox" data-gallery="asd-photos">
+                                        <img style="object-fit: cover; width: 100%; height: 100%;" src="/images/projects/african_woman_store.jpg">
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr>
+
+                    <div id="thank_you_section" style="background-image: URL('../../images/SimpleBG2.png'); background-size: cover; min-height: 300px; background-position: 50% 80%; padding-top: 50px; padding-bottom: 50px;" class="row mb-1">
+                        <div style="width: 100%; text-align: center; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                            <p class="fs-700 fw-bold" style="margin: 0px;">Thank you for everything</p>
+                            <div id="thank_you_section_NV">
+                                <div style="display: inline-flex;">
+                                    <p class="fs-500" style="margin: 0px; margin-right: 5px">Noun</p>
+                                    <p class="fs-500 fw-bold" style="margin: 0px; margin-right: 5px; font-style: italic;">Verb</p>
+                                </div>
+                                <div style="display: inline-flex;">
+                                    <p class="fs-500" style="margin: 0px; margin-right: 5px">Noun</p>
+                                    <p class="fs-500 fw-bold" style="margin: 0px; margin-right: 5px; font-style: italic;">Verb</p>
+                                </div>
+                                <div style="display: inline-flex;">
+                                    <p class="fs-500" style="margin: 0px; margin-right: 5px">Noun</p>
+                                    <p class="fs-500 fw-bold" style="margin: 0px; margin-right: 5px; font-style: italic;">Verb</p>
+                                </div>
+                            </div>
+                            <p class="fs-600" style="margin: 0px; max-width: 600px">Without your generosity, we would not be able to influence as many lives as we do now.</p>
+                            <p style="margin: 0px; margin-top: 20px;" class="fw-bold">Consider donating to another project today</p>
+                            <a class="btn red-bg rounded fs-500 mt-1" style="color: white; font-weight: bold;" href="/projects">View More Projects</a>
+                        
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script src="../../scripts/tools.js"></script>
+    <script src="../../scripts/navbar.js"></script>
+    <script src="../../scripts/footer.js"></script>
+    
+    <script src="/scripts/card_pages/project_data.js"></script>
+    <script src="/scripts/card_pages/project_page.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,210 @@
+html {
+    font-size: 16px;
+}
+
+:root {
+    /* To define a variable, do --[variable name]: value*/
+    --fs-XXXL: 6rem;
+    --fs-XXL: 5rem;
+    --fs-XL: 4rem;
+    --fs-L: 3.9rem;
+    --fs-1000: 3.75rem;
+    --fs-900: 3.5rem;
+    --fs-800: 3rem;
+    --fs-700: 2rem;
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1rem;
+    --fs-300: 0.75rem;
+    --fs-200: 0.5rem;
+    --font-scale: 100%;
+    --blue: #0a0edb;
+    --blue-trans: #0a0edbdf;
+    --light-grey: rgb(197, 197, 197);
+    --lighter-grey: rgb(241, 241, 241);
+    --red: rgb(218, 35, 35);
+}
+
+.plus-jakarta-sans {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* font sizes */
+.fs-XXL {
+    font-size: var(--fs-XXXL);
+}
+
+.fs-XXL {
+    font-size: var(--fs-XXL);
+}
+
+.fs-XL {
+    font-size: var(--fs-XL);
+}
+
+.fs-L {
+    font-size: var(--fs-L);
+}
+
+.fs-1000 {
+    font-size: var(--fs-1000);
+}
+
+.fs-900 {
+    font-size: var(--fs-900);
+}
+
+.fs-800 {
+    font-size: var(--fs-800);
+}
+
+.fs-700 {
+    font-size: var(--fs-700);
+}
+
+.fs-600 {
+    font-size: var(--fs-600);
+}
+
+.fs-500 {
+    font-size: var(--fs-500);
+}
+
+.fs-400 {
+    font-size: var(--fs-400);
+}
+
+.fs-300 {
+    font-size: var(--fs-300);
+}
+
+.fs-200 {
+    font-size: var(--fs-200);
+}
+
+/* font weights */
+.fw-bolder {
+    font-weight: bold;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-200 {
+    font-weight: 200;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+/* line-height */
+.lh-XXL {
+    line-height: var(--fs-XXL);
+}
+
+.lh-XL {
+    line-height: var(--fs-XL);
+}
+
+.lh-900 {
+    line-height: var(--fs-900);
+}
+
+.lh-800 {
+    line-height: var(--fs-800);
+}
+
+.lh-700 {
+    line-height: var(--fs-700);
+}
+
+.lh-600 {
+    line-height: var(--fs-600);
+}
+
+.lh-500 {
+    line-height: var(--fs-500);
+}
+
+.lh-400 {
+    line-height: var(--fs-400);
+}
+
+.lh-300 {
+    line-height: var(--fs-300);
+}
+
+.lh-200 {
+    line-height: var(--fs-200);
+}
+
+
+@media (max-width: 992px) {
+    :root {
+        --font-scale: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --font-scale: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    :root {
+        --font-scale: 82.5%;
+    }
+}
+
+@media (max-width: 400px) {
+    :root {
+        --font-scale: 75%;
+    }
+}
+
+html {
+    font-size: var(--font-scale);
+}
+
+/*
+--bs-breakpoint-xs: 0;
+--bs-breakpoint-sm: 576px;
+--bs-breakpoint-md: 768px;
+--bs-breakpoint-lg: 992px;
+--bs-breakpoint-xl: 1200px;
+--bs-breakpoint-xxl: 1400px;
+*/
