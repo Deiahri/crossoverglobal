@@ -171,18 +171,28 @@ a:hover {
     transition: max-height 500ms;
 }
 
+.shrink-vertical.shrink > .shrinkable {
+    max-height: 100px;
+}
+
 .shrink-vertical > .shrinkable-2 {
     max-height: 0px;
     /* height: 0px; */
     transition: max-height 500ms;
 }
 
-.shrink-vertical.shrink > .shrinkable {
-    max-height: 100px;
-}
-
 .shrink-vertical.shrink > .shrinkable-2 {
     max-height: 150px;
+}
+
+.shrink-vertical > .shrinkable-3 {
+    max-height: 0px;
+    /* height: 0px; */
+    transition: max-height 500ms;
+}
+
+.shrink-vertical.shrink > .shrinkable-3 {
+    max-height: 200px;
 }
 
 .rotatable_180 {

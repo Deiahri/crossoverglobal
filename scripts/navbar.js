@@ -56,6 +56,7 @@ navbar_screen_element.innerHTML = `
                     <a class="dropdown-item" href="/search/?type=good_news">The Good News</a>
                     <a class="dropdown-item" href="/about">About</a>
                     <a class="dropdown-item" href="/contact">Contact Us</a>
+                    <a class="dropdown-item" href="/our-sponsors">Our Sponsors</a>
                 </div>
             </div>
         </li>
@@ -97,7 +98,7 @@ mobile_navbar_menu_element.innerHTML = `
         <a style="font-size: 20px; margin: 0px">Learn More</a>
         <img name="dropdown-icon" class="drop_down_button rotatable_180" style="position: absolute; right: 4px; width: 25px; margin-top: 5px;">
     </div>
-    <div style="background-color: rgb(235, 235, 235); width: 100%; overflow: hidden;" class="shrinkable-2 align-vertical">
+    <div style="background-color: rgb(235, 235, 235); width: 100%; overflow: hidden;" class="shrinkable-3 align-vertical">
         <div class="align-horizontal" style="padding-top: 10px; padding-bottom: 10px;">
             <a style="font-size: 20px; margin: 0px" href="/search/?type=good_news">The Good News</a>
         </div>
@@ -106,6 +107,9 @@ mobile_navbar_menu_element.innerHTML = `
         </div>
         <div class="align-horizontal" style="padding-top: 10px; padding-bottom: 10px;">
             <a style="font-size: 20px; margin: 0px" href="/contact">Contact Us</a>
+        </div>
+        <div class="align-horizontal" style="padding-top: 10px; padding-bottom: 10px;">
+            <a style="font-size: 20px; margin: 0px" href="/our-sponsors">Our Sponsors</a>
         </div>
     </div>
 </div>
