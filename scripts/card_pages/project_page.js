@@ -169,6 +169,7 @@ function build_project_page(project_data) {
         document.getElementById('top_completion_badge').classList = '';
         document.getElementById('donorbox_container').classList = 'hideable fullHide';
         document.getElementById('completion_notes_section').classList = '';
+        document.getElementById('alternative_donate_options').classList = 'hideable fullHide';
     } else {
         document.getElementById('thank_you_section').classList = 'hideable fullHide';
         document.getElementById('how_you_can_help_incomplete').classList = '';
