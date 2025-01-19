@@ -8,21 +8,17 @@ const projects = [
         "long_desc": "This December of 2024, we wish to do a Christmas outreach to spread joy and provide aid during this holiday season. As it is nearing December 25th, the birthday of our Lord and savior Jesus Christ, we should not forget that to spread joy and give hope and aid through presents of toys, food, and necessities, would fulfill the command of Jesus Christ. To love our neighbor as ourselves and to give to the needy and sick. Through these outreaches, we shall fulfill our duty.Your donation is crucial in the success of these outreaches, as the more we have, the more we can give. 100% of all donations will be used in the outreaches! In 2025, when the outreaches are finished, we will upload all of what we have to this project so you may learn about the effect of our outreaches.",
         'goals': `Raise as much money as possible. We will not give sparingly; we will use all that we can to give. With whatever amount we have, we aim to give to aid the needy first, then gifts of non-necessities such as toys or sketchbooks, jump-ropes, or whatever else a child could want.
         `,
-        // 'impacts': [
-        //     ['1500', 'Given', `
-        //     You read that correctly!<br>
-        //     One thousand five hundred dollars was donated to those in need this outreach in our first outreach! We could not have expected to give this much if it weren't for God's gifts. The gifts included donations to widows. <br><br>
-        //     If you are curious as to how we were able to give $1500 in cash, but only received $400 donations, view Our Goals in this project's info tab.
-        //     `, ['2021 christmas outreach.jpg', '2021 christmas outreach.mp4']],
-        //     ['One Hundred Lives', 'Affected', 'With our donations, we were able to give a combination of both money and goods (such as foods or other necessities) to one hundred people. We are blessed to be able to give gifts to such an extent.', ['2021 christmas outreach (2).jpg', '2021 christmas outreach (3).jpg', '2021 christmas outreach (4).jpg']]
-        // ],
-        // "post_project_photos": ['2021 christmas outreach (1).jpg', '2021 christmas outreach (2).jpg', '2021 christmas outreach (3).jpg', '2021 christmas outreach (4).jpg', '2021 christmas outreach (5).jpg', '2021 christmas outreach (6).jpg'],
+        'impacts': [
+            ['~600 Lives', 'Affected', `This Christmas, CrossoverGlobal gifted over 600 people, from all walks of life. Old or young, we gave aid to those we could.`, ['2024 Christmas Outreach/2024CO_v (3).mp4', '2024 Christmas Outreach/2024CO_v (6).mp4', '2024 Christmas Outreach/2024CO_v (7).mp4', '2024 Christmas Outreach/2024CO_p (1).jpg', '2024 Christmas Outreach/2024CO_p (4).jpg']],
+        ],
+        "post_project_photos": ['2024 Christmas Outreach/2024CO_v (1).mp4', '2024 Christmas Outreach/2024CO_v (2).mp4', '2024 Christmas Outreach/2024CO_v (3).mp4', '2024 Christmas Outreach/2024CO_v (4).mp4', '2024 Christmas Outreach/2024CO_v (5).mp4', '2024 Christmas Outreach/2024CO_v (6).mp4', '2024 Christmas Outreach/2024CO_v (7).mp4', '2024 Christmas Outreach/2024CO_v (8).mp4'],
         "donorbox_code": `<script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/2021-christmas-outreach" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>`,
         'bible_verse_content': 'Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.',
         'bible_verse_CV': '2 Corinthians 9:7',
-        "amount_raised": null,
-        "complete": false,
-        // 'completion_notes': 'We are blessed to have been given the opportunity to bless others with gifts. Considering this was our first out reach, this went better than any of us could have anticipated, and we are grateful for it. HALLELUJAH HALLELUJAH HALLELUJAH TO OUR SAVIOR JESUS CHRIST'
+        // "amount_raised": 255.70,
+        "complete": true,
+        'completion_date': 'January 3rd, 2024',
+        'completion_notes': 'We are blessed to have been given the opportunity to bless others with gifts. Considering this was our first out reach, this went better than any of us could have anticipated, and we are grateful for it. HALLELUJAH HALLELUJAH HALLELUJAH TO OUR SAVIOR JESUS CHRIST'
     },
     {
         'not_searchable': true,
@@ -134,7 +130,7 @@ const projects = [
         Weeks before the outreach, Crossover's founder, Caroline Okwuchukwukwuru Okpara, was given birthday money and was able to use that towards the outreach. She is undoubtedly blessed, and she was able to share her blessing with others.<br>
         And on top of this, Crossover received $400 dollars in donations.`,
         'impacts': [
-            ['1500', 'Given', `
+            ['$1500', 'Given', `
             You read that correctly!<br>
             One thousand five hundred dollars was donated to those in need this outreach in our first outreach! We could not have expected to give this much if it weren't for God's gifts. The gifts included donations to widows. <br><br>
             If you are curious as to how we were able to give $1500 in cash, but only received $400 donations, view Our Goals in this project's info tab.

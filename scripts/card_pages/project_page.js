@@ -73,7 +73,11 @@ function build_project_page(project_data) {
         document.getElementById('bible_verse_CV').innerHTML = project_data.bible_verse_CV;
     }
 
-    document.getElementById('amount_raised').innerHTML = project_data.amount_raised ? project_data.amount_raised: '$0';
+    if(project_data.amount_raised) {
+        document.getElementById('amount_raised').innerHTML = project_data.amount_raised;
+        document.getElementById('contribution_header').classList = '';
+    }
+
     if(project_data.impacts) {
         document.getElementById('nothing_yet').classList = 'hideable fullHide';
 

@@ -148,7 +148,7 @@
                                         <br>
                                         We have other projects that still need to be completed. View our Project's Page to learn more.
                                     </p>
-                                    <a class="btn rounded btn-light fw-bold" href="/projects">Go to Project Page</a>
+                                    <a class="btn rounded btn-light fw-bold" href="/projects">Go to Projects Page</a>
                                 </div>
                             </div>
                         </div>
@@ -157,12 +157,14 @@
 
 
                 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                    <div style="background-image: URL('../../images/SimpleBG2.png'); background-size: cover; min-height: 300px; background-position: 50% 80%; padding-top: 50px; padding-bottom: 50px;" class="row mb-2">
-                        <div style="width: 100%; text-align: center; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                            <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center;">
-                                <p class="co-blue fs-800 fw-bold" style="margin: 0px; margin-right: 0.5rem;">You've contributed</p>
-                                <p id="amount_raised" class="co-blue fs-800 fw-bold" style="margin: 0px; margin-right: 0.5rem;">to</p>
-                                <p class="co-blue fs-800 fw-bold" style="margin: 0px;">to</p>
+                    <div style="background-image: URL('../../images/SimpleBG2.png'); background-size: cover; min-height: 300px; background-position: 50% 80%; padding-top: 50px; padding-bottom: 50px; display: flex; align-items: center;" class="row mb-2">
+                        <div style="width: 100%; height: 100%; text-align: center; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                            <div id="contribution_header" class="hideable fullHide">
+                                <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center;">
+                                    <p class="co-blue fs-800 fw-bold" style="margin: 0px; margin-right: 0.5rem;">You've contributed</p>
+                                    <p id="amount_raised" class="co-blue fs-800 fw-bold" style="margin: 0px; margin-right: 0.5rem;">amount</p>
+                                    <p class="co-blue fs-800 fw-bold" style="margin: 0px;">to</p>
+                                </div>
                             </div>
                             
                             <p id="title2" class="co-blue fs-700 fw-bold" style="margin: 0px;">Project Name</p>
@@ -225,8 +227,7 @@
                             </div>
                             <p class="fs-600" style="margin: 0px; max-width: 600px">Without your generosity, we would not be able to influence as many lives as we do now.</p>
                             <p style="margin: 0px; margin-top: 20px;" class="fw-bold">Consider donating to another project today</p>
-                            <a class="btn red-bg rounded fs-500 mt-1" style="color: white; font-weight: bold;" href="/projects">View More Projects</a>
-                        
+                            <a class="btn rounded btn-red fs-500 mt-1" style="color: white; font-weight: bold;" href="/search/?type=projects">View More Projects</a>
                         </div>
                     </div>
 

@@ -137,7 +137,7 @@ try {
 }
 
 var lastScrollYPos = 0;
-var ignoreScrollEventCount = 10;
+var ignoreScrollEventCount = 4;
 let currentScrollEventCount = 0;
 function hideOnScroll () {
     currentScrollEventCount++;
