@@ -18,7 +18,7 @@ const projects = [
         // "amount_raised": 255.70,
         "complete": true,
         'completion_date': 'January 16th, 2024',
-        'completion_notes': 'We are blessed to have been given the opportunity to bless others with gifts. Considering this was our first out reach, this went better than any of us could have anticipated, and we are grateful for it. HALLELUJAH HALLELUJAH HALLELUJAH TO OUR SAVIOR JESUS CHRIST'
+        'completion_notes': 'We are blessed to have been given the opportunity to bless others with gifts. HALLELUJAH HALLELUJAH HALLELUJAH TO OUR SAVIOR JESUS CHRIST'
     },
     {
         'not_searchable': true,
