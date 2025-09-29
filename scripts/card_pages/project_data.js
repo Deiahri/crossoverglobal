@@ -27,7 +27,7 @@ const projects = [
         'desc': 'ahahahahahaha,sak sjdasjdajsdjasdhsbad hasdbasbasjd basjhdb askh daskjh dbaskbh d',
         // new stuff below -----
         'location': 'some location',
-        'overview_video': 'kz.mp4',
+        // 'overview_video': 'kz.mp4',
         'long_desc': 'this description is supposed to be long, but its not long. Your mom is long. Your dad is even longer. lorem ipsum latin potan pootang',
         'goals': 'these are the goals that we have to do these things or something. idk your mom is an interesting person',
         'pre_project_photos': ['african_woman_store.jpg'],
@@ -39,10 +39,10 @@ const projects = [
         'bible_verse_CV': '55th Timothy 1421:7142',
         'amount_raised': '$524.33',
         'impacts': [
-            ['quantity', 'verb', 'description', ['african_woman_store.jpg', 'kz.mp4', 'videos']],
-            ['quantity', 'verb', 'description', ['african_woman_store.jpg', 'kz.mp4', 'videos']]
+            ['quantity', 'verb', 'description', ['african_woman_store.jpg', 'videos']],
+            ['quantity', 'verb', 'description', ['african_woman_store.jpg', 'videos']]
         ],
-        'post_project_photos': ['african_woman_store.jpg', 'kz.mp4'],
+        'post_project_photos': ['african_woman_store.jpg'],
         'complete': false,
         'completion_date': '',
         'completion_notes': 'Hello world'

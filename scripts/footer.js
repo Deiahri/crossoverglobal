@@ -1,6 +1,7 @@
-let footer = document.createElement('div');
-footer.style = 'padding: 10px';
+let footer = document.createElement("div");
+footer.style = "padding: 10px";
 footer.innerHTML = `
+<div class="px-2">
 <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-5 row-cols-xl-7 py-5 my-5 border-top">
     <div class="col mb-3">
         <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
@@ -38,8 +39,12 @@ footer.innerHTML = `
     </div>
 
 </footer>
-<div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
-    <p>© 2024 Crossover Global, Inc. All rights reserved.</p>
+<div class="d-flex flex-column flex-sm-row justify-content-between">
+    <div style="display: flex; align-items: start; flex-direction: column; justify-content: start;">
+        <p style="margin-bottom: 0;">© ${new Date().getFullYear()} Crossover Global, Inc. All rights reserved.</p>
+        <p style="margin-bottom: 0;">Address: 2210 Tradewinds Dr, Missouri City, Texas, 77459</p>
+        <p style="margin-bottom: 0;">Zelle: OkwuChukwukwuru55@yahoo.com</p>
+        </div>
     <ul class="list-unstyled d-flex">
         <!-- YouTube -->
         <li class="ms-3">
@@ -60,10 +65,11 @@ footer.innerHTML = `
     </ul>
 </div>
 <div style="height: 100px;"></div>
-`
+</div>
+`;
 
 try {
-    body.appendChild(footer);
+  body.appendChild(footer);
 } catch {
-    document.getElementsByTagName('body')[0].appendChild(footer);
+  document.getElementsByTagName("body")[0].appendChild(footer);
 }
