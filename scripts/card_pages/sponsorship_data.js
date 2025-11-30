@@ -1,39 +1,5 @@
 const sponsorship = [
     {
-        "title": "Send Charlie to Med School",
-        "sponsee": "Charlie",
-        "country": "Nigeria",
-        "desc": "Charlie needs our sponsorship to continue attending Med School. The cost of tuition, board, textbooks, and fees are too much for him and his family to bare on their own. Let's help him change that!",
-        "image": "charlie.jpg",
-        "sponsee_desc": "I am Ifegbo Charles and the last born of my parents. I am a first-year student of Nnamdi Azikwe University in Nigeria pursing a course in medical laboratory science. I feel a sense of happiness and fulfilment in saving lives, treating and finding causes and solution to certain diseases, and I hope to contribute immensely to the health sector by providing detailed analysis of test results, patient's diagnosis, monitoring different disease processes, treatment of disease, maintenance of health, early detection of diseases (i.e. cancer, diabetes, heart disease, covid-19 and other life threatening life conditions), cross-mating blood transfusions, make lifestyle changes and more effectively and proactively combat patient's illness and advice patients through this my area of study by God's grace🙏🏼",
-        "sponsee_request_desc": `
-        Charlie has requested financial support to attend Nnamdi Azikiwe University, pursuing medical laboratory science.<br><br>
-        Listed below are items that need to be paid in order for him to attend.<br><br>
-        
-        <ul>
-            <li>Acceptance and school fees: 147,000 Naira</li>
-            <li>General Study courses: 17,500 Naira</li>
-            <li>Textbooks and supplies: ~15,000 Naira</li>
-            <li>Meal Plan (Food): ~80,000 Naira</li>
-        </ul><br>
-
-        Please note that these are estimates, and some items are not listed. The final cost cannot be definitely determined. <br>
-        As time progresses, we will update this as information comes.
-        `,
-        "donorbox_code": `<script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/charlie-med-school-fund" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>`,
-        "encouragement": "Sponsor a future doctor today, that he may be able to provide for his family and himself",
-        'share_links': [
-            ['whatsapp.svg', 'https://api.whatsapp.com/send?phone=&text=help%20CrossoverGlobal%20send%20Charlie%20To%20Med%2-school!%20https://www.crossoverglobal.org/sponsorship/send-charlie-to-med-school'],
-            ['facebook.svg', 'https://www.facebook.com/sharer/sharer.php?u=https://www.crossoverglobal.org/sponsorship/send-charlie-to-med-school']
-        ],
-        'optional_sections': [
-            ['Proof of registration', 
-                `This is a screenshot of Charlie's admission.<br>
-                <img src='${image_path_sponsorship}/charlie-reg.jpg' style='width: 90%; object-fit: cover;'>`
-            ]
-        ],
-    },
-    {
         "title": "Send Valentine to University",
         "sponsee": "Valentine",
         "country": "Nigeria",
@@ -78,6 +44,7 @@ const sponsorship = [
                 <img src='${image_path_sponsorship}/valentine-tuition-invoice.jpg' style='width: 90%; object-fit: cover;'>`
             ],
         ],
+        'complete': true
     },
     {
         "title": "Send Stephen to University",
@@ -109,6 +76,7 @@ const sponsorship = [
                 <img src='${image_path_sponsorship}/stephen-admission.jpg' style='width: 90%; object-fit: cover;'>`
             ]
         ],
+        'complete': true
     }
 ];
 

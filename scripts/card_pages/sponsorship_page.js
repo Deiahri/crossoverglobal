@@ -67,6 +67,19 @@ if(current_sponsorship_data.optional_sections) {
     }
 }
 
+
+if (current_sponsorship_data.complete) {
+    document.getElementById('how_to_help_complete_section').style.display = 'flex';
+    document.getElementById('how_to_help_section').style.display = 'none';
+
+    document.getElementById('optional_sections').style.display = 'none';
+} else {
+    document.getElementById('how_to_help_complete_section').style.display = 'none';
+    document.getElementById('how_to_help_section').style.display = 'flex';
+    
+    document.getElementById('optional_sections').style.display = 'flex';
+}
+
 if(current_sponsorship_data.complete) {
     document.getElementById('top_completion_badge').classList = '';
 }
